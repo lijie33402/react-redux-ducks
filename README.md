@@ -1,3 +1,5 @@
+这是一个从头搭建一个react简单应用的教程，最开始学redux时候从别人那copy后用到的，现在回过头看还是可以算作最好的一个demo了，重新更新了代码和一些配置，在github找到了初始版本，在此感谢[作者](https://github.com/goopscoop/ga-react-tutorial)
+
 # 从头开始建立一个React App - 项目基本配置
 
 1. `npm init` 生成 `package.json` 文件.
