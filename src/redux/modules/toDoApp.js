@@ -1,7 +1,7 @@
-const INPUT_CHANGED = 'INPUT_CHANGED';
-const INPUT_SUBMIT = 'INPUT_SUBMIT';
-const LIST_ITEM_CLICK = 'LIST_ITEM_CLICK';
-const DELETE_LIST_ITEM = 'DELETE_LIST_ITEM';
+const INPUT_CHANGED = 'react-redux-ducks/toDoApp/INPUT_CHANGED';
+const INPUT_SUBMIT = 'react-redux-ducks/toDoApp/INPUT_SUBMIT';
+const LIST_ITEM_CLICK = 'react-redux-ducks/toDoApp/LIST_ITEM_CLICK';
+const DELETE_LIST_ITEM = 'react-redux-ducks/toDoApp/DELETE_LIST_ITEM';
 
 export function listItemClick(index){
   return {

@@ -17,7 +17,7 @@ const List = (props) => {
                       ? {textDecoration: 'line-through', fontSize: '20px'}
                       : {textDecoration: 'none', fontSize: '20px'}
                     }
-                    onClick={props.onClick.bind(null, i)}
+                    onClick={() => props.onClick(i)}
                   >
                     {el.item}
                   </span>

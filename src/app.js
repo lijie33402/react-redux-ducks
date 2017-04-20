@@ -17,3 +17,7 @@ class App extends React.Component {
 }
 
 ReactDOM.render(<App />, document.getElementById('app'));
+
+// 热替换HMR，需要加入这段代码才会进行生效
+if(module.hot)
+    module.hot.accept();
